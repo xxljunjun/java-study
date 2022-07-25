@@ -16,7 +16,7 @@ mysql-installer-community-8.0.26.0
 + mysql可视化工具MySQL Workbench
 + Root  New123#
 + 报错需要
-+ mysql --vewsion
++ mysql --version
 ```修改密码
 flush privileges;
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'mysql';
@@ -24,3 +24,4 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'mysql';
 
 ### 安装可视化操作数据库navicat
 + 可视化数据库
+
