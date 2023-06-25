@@ -42,7 +42,7 @@ RequestDispatcher requestDispatcher = req.getRequestDispatcher("/servlet2");
 ```
 
 ### 响应乱码
-```
+```js
 //解决响应中文乱码方案一（不推荐使用）
 // 设置服务器字符集为UTF-8
 resp.setCharacterEncoding("UTF-8");
@@ -56,7 +56,7 @@ resp.setContentType("text/html; charset=UTF-8");
 ```
 
 ### 请求重定向
-```
+```js
 请求重定向的第一种方案：
 // 设置响应状态码302 ，表示重定向，（已搬迁）
 resp.setStatus(302);
