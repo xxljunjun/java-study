@@ -69,3 +69,6 @@
 ```
 -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true
 ```
+
+
++ 下载不下来时clean一下
