@@ -16,6 +16,11 @@ docker run \
 -d mysql:8.0.26
 ```
 
+### 进入mysql容器
+```
+docker exec -it mysql /bin/bash
+```
+
 ### 设置my.conf：vim /mydata/mysql/conf/my.conf
 ```
 [mysqld]
